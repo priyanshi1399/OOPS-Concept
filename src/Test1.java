@@ -6,6 +6,10 @@ public class Test1 {
     }
 }
 class Basics1{
+//Private Method
+    private static int num(){
+        return 10;
+    }
 
     public static void main(String [] args){
         Test1 test1=new Test1();
@@ -24,5 +28,7 @@ class Basics1{
 
         //Real life example design of a Model
         // copy the design and sell it to other ,create an instance and you can do anything with it , so this is object.
+
+        System.out.println( num()); //method
     }
 }
